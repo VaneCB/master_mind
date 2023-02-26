@@ -1,0 +1,198 @@
+/*Establecemos una variable de un color para bordes*/
+:root {
+    --color-border-legend: 3px solid #685381;
+}
+
+.contenedorJugar{
+    display:flex;
+    flex-direction:row;
+    height: 95vh;
+    margin:5px;
+
+}
+.error{
+    color:crimson;
+    font-style: oblique;
+    font-size:1.5em;
+    font-family: "DejaVu Sans";
+    align-items: end;
+}
+.opciones{
+    display:flex;
+    flex-direction: column;
+    background: #a0dad0;
+    border: #04122a 1px solid;
+    flex:1 1 50%;
+    margin: 2px;
+
+}
+.informacion{
+    display:flex;
+    flex-direction: column;
+    background: #a0dad0;
+    border: #04122a 1px solid;
+    flex:1 1 50%;
+    margin:2px;
+}
+h1{
+    color: #055643;
+    font-width: bold;
+    font-size:3rem;
+}
+h2{
+    color: #051f4d;
+    font-size: 2.1rem;
+    font-weight: bold;
+    align-self: center;
+}
+h3 {
+    color: #674217;
+}
+legend{
+    position: relative;
+    background: #cfe7ee;
+    color: #0e3049;
+    font-size: 1.4rem;
+    font-style: oblique;
+
+
+}
+legend:before {
+    position: absolute;
+    content: '';
+    height: 50%;
+    left: 0px;
+    top: 0px;
+}
+legend:after {
+    position: absolute;
+    content: '';
+    height: 50%;
+    right: 0px;
+    top: 0px;
+}
+fieldset{
+    background: #b2d2d2;
+    overflow: auto;
+
+}
+
+
+select{
+    color: #d2bad7;
+    font-width: bold;
+    font-style: oblique;
+    font-size: 1.4rem;
+    margin-top:5%;
+    margin-bottom:5%;
+    border-radius: 5px;
+}
+option{
+    color:darkblue;
+    font-size:1.1rem;
+}
+
+
+.Color {
+    float: left;
+    display: inline;
+    width: 23%;
+    height: 40px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.3em
+}
+.Color_small {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    color: black
+}
+
+
+
+.Azul {
+    background-color: blue;
+    color: white;
+}
+
+.Rojo {
+    background-color: red;
+    color: white;
+}
+
+.Naranja {
+    background-color: orange;
+}
+
+.Verde {
+    background-color: green;
+    color: white;
+}
+
+.Violeta {
+    background-color: violet;
+}
+
+.Amarillo {
+    background-color: yellow;
+}
+
+.Marron {
+    background-color: brown;
+    color: white;
+}
+
+.Rosa {
+    background-color: pink;
+}
+
+span.negro {
+    background: black;
+    border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    -webkit-border-radius: 2.5em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: center;
+    width:  10px;
+    height:  10px;
+    font-size: 1.5em;
+}
+
+
+span.blanco {
+    background: white;
+    border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    -webkit-border-radius: 2.5em;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 15px;
+    /*margin-right: 15px;*/
+    text-align: center;
+    width: 10px;
+    height:  10px;
+    font-size: 1.5em;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 0.25em solid darkblue;
+    overflow: auto;
+
+    /*left: 20%;*/
+    /*top: 20%;*/
+    /*margin-left: -115px;*/
+    /*margin-top: -80px;*/
+    padding: 10px;
+    background-color: #ccc;
+}
